@@ -1,0 +1,19 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.container:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+.avatar {
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+.info {
+  display: grid;
+  align-content: center;
+}

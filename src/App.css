@@ -1,0 +1,12 @@
+.App {
+  display: grid;
+  justify-items: center;
+}
+
+.main-content {
+  width: 55vw;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 100vh;
+  border-right: 0;
+}

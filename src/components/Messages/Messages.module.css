@@ -1,0 +1,46 @@
+.container {
+  display: grid;
+  grid-template-rows: 10fr 0.5fr;
+  background-color: lightgray;
+}
+
+.typeMessage {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+}
+
+.input {
+  font-size: 1.2rem;
+  border: 0;
+  outline: 0;
+}
+
+.checkboxContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+.messagesContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem;
+  overflow-y: auto;
+  overflow: hidden;
+}
+
+.messageIcon {
+  border-radius: 50%;
+}

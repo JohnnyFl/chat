@@ -1,0 +1,50 @@
+.patient {
+  grid-template-columns: 1fr 10fr;
+  justify-items: start;
+  grid-template-areas: "avatar message" "time .";
+  display: grid;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+.doctor {
+  grid-template-columns: 10fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  justify-items: end;
+  grid-template-areas: "messageDoctor avatar" ". time";
+  display: grid;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+.time {
+  grid-area: time;
+  justify-self: center;
+}
+
+.avatar {
+  border-radius: 50%;
+  grid-area: avatar;
+  justify-self: center;
+}
+
+.messagePatient {
+  grid-area: message;
+  background-color: white;
+  padding: 1.5rem;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 2px;
+}
+
+.messageDoctor {
+  grid-area: messageDoctor;
+  background-color: #0069d9;
+  color: white;
+  padding: 1.5rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 2px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
